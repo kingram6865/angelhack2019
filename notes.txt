@@ -1,0 +1,6 @@
+Navigation
+"Add Money" -> Change view to add money
+"Pay Bills" -> Change view to show bills
+"Payment History" -> Change view to show payment history
+"Videos" -> Change view to list videos
+"Credit Score" -> Change view to credit score and history
