@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aws-amplify": "^1.1.28",
+    "aws-amplify-react-native": "^2.1.12",
     "gauge": "^2.7.4",
     "react": "^16.8.6",
     "react-d3-speedometer": "^0.5.5",

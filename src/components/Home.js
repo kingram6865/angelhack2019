@@ -28,17 +28,19 @@ class Home extends React.Component {
 
 	render(){
 		return (
-			<div className="home">
+			<div className="home" align="center">
 				<h2>My Dashboard</h2>
 				<Graphic source="assets/icon.png" />
 				<Profile name="Joan White" cr="575"/>
-				<ul class="nodefault">
-					<li><button eventKey={1} onclick={ () => this.setView('addmoney')}>Add Money</button></li>
-					<li><button>Pay Bills</button></li>
-					<li><button>Payment History</button></li>
-					<li><button>Videos</button></li>
-					<li><button>Credit Score</button></li>
-				</ul>
+				<div className="menu" align="center">
+					<ul class="nodefault">
+						<li><button eventKey={1} onclick={ () => this.setView('addmoney')}>Add Money</button></li>
+						<li><button>Pay Bills</button></li>
+						<li><button>Payment History</button></li>
+						<li><button>Videos</button></li>
+						<li><button>Credit Score</button></li>
+					</ul>
+				</div>
 			</div>
 		);
 	}
